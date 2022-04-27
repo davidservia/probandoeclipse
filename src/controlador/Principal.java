@@ -9,7 +9,7 @@ package controlador;
  */
 public class Principal {
 	
-	String nombre = "David ";
+	static String nombre = "David";
 
 	/**
 	 * @param args
@@ -17,6 +17,7 @@ public class Principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("hola mundo");
+		System.out.println(nombre);
 
 	}
 
